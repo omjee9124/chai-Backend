@@ -2,9 +2,10 @@
   "name": "chai-aur-backend",
   "version": "1.0.0",
   "description": "A backend code with chai",
+  "type": "modeule",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "chai",
@@ -12,5 +13,8 @@
     "javascript"
   ],
   "author": "Om Ji Dubey",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
